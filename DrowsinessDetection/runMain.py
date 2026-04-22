@@ -1,14 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@Auth ： 思绪无限
-博客园、知乎：思绪无限
-Bilibili：思绪亦无限
-公众号：AI技术研究与分享
-代码地址见以下博客中给出:
-https://www.cnblogs.com/sixuwuxian/
-https://www.zhihu.com/people/sixuwuxian
 
-@IDE ：PyCharm
 运行本项目需要python3.8及以下依赖库（完整库见requirements.txt）：
     opencv-python==4.5.5.64
     tensorflow==2.9.1

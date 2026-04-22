@@ -1,6 +1,7 @@
-train: ./Drowsiness/images/train
-val: ./Drowsiness/images/valid
-test: ./Drowsiness/images/test
+path: E:/Fatigue detection/DrowsinessDetection/Drowsiness
+train: images/train
+val: images/valid
+test: images/test
 
 nc: 3
 names: ['Eyeclosed', 'Neutral', 'Yawn']

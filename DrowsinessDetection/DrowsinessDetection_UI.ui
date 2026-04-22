@@ -31,10 +31,10 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Drowsiness Detection v1.0（思绪无限）</string>
+   <string>Drowsiness Detection v1.0（疲劳检测1.0）</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="RecSystem.qrc">
+   <iconset>
     <normaloff>:/images/icons/sign.png</normaloff>:/images/icons/sign.png</iconset>
   </property>
   <property name="toolTip">
@@ -45,7 +45,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">#centralwidget{
-	border-image: url(:/images/icons/back-image.png);
+	border-image: url(:/images/icons/back__image.png);
     color: rgb(220, 220, 220);
     border-radius: 10px;
 }</string>
@@ -231,14 +231,14 @@ color: #930077;</string>
      </font>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;www.zhihu.com/people/sixuwuxian&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string/>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel{color: #003371;
 font: italic 13pt &quot;Times new roman&quot;;}</string>
     </property>
     <property name="text">
-     <string>知乎：思绪无限</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -272,7 +272,7 @@ font: italic 13pt &quot;Times new roman&quot;;}</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/settings.png</normaloff>:/images/icons/settings.png</iconset>
     </property>
     <property name="iconSize">
@@ -342,7 +342,7 @@ font: italic 13pt &quot;Times new roman&quot;;}</string>
      </font>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;author: 思绪无限&lt;/p&gt;&lt;p&gt;公众号：AI技术研究与分享&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string/>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel{
@@ -351,7 +351,7 @@ font: italic 24pt &quot;隶书&quot;;
 }</string>
     </property>
     <property name="text">
-     <string>基于YOLOv5的疲劳驾驶检测系统</string>
+     <string>基于YOLOv11的疲劳驾驶检测系统</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -589,6 +589,12 @@ p, li { white-space: pre-wrap; }
       <height>648</height>
      </size>
     </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
     <property name="font">
      <font>
       <family>楷体</family>
@@ -599,7 +605,7 @@ p, li { white-space: pre-wrap; }
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/icons/ini-image.png);</string>
+     <string notr="true">border-image: url(:/images/icons/sign.png);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -655,14 +661,14 @@ p, li { white-space: pre-wrap; }
      </font>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;思绪无限（邮箱：sixuwuxian@aliyun.com）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string/>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel{color: #003371;
 font: italic 13pt &quot;楷体&quot;;}</string>
     </property>
     <property name="text">
-     <string>B站：思绪亦无限</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -745,7 +751,7 @@ color: #930077;</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/recovery.png</normaloff>:/images/icons/recovery.png</iconset>
     </property>
     <property name="iconSize">
@@ -839,7 +845,7 @@ p, li { white-space: pre-wrap; }
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/g1.png</normaloff>:/images/icons/g1.png</iconset>
     </property>
     <property name="iconSize">
@@ -879,7 +885,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>464</x>
       <y>72</y>
-      <width>249</width>
+      <width>341</width>
       <height>51</height>
      </rect>
     </property>
@@ -899,14 +905,14 @@ p, li { white-space: pre-wrap; }
      </font>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;wuxian.blog.csdn.net&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string/>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel{color: #003371;
 font: italic 13pt &quot;Times new roman&quot;;}</string>
     </property>
     <property name="text">
-     <string>wuxian.blog.csdn.net</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -978,7 +984,7 @@ font: italic 13pt &quot;Times new roman&quot;;}</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/versions.png</normaloff>:/images/icons/versions.png</iconset>
     </property>
     <property name="iconSize">
@@ -1035,7 +1041,7 @@ font: italic 13pt &quot;Times new roman&quot;;}</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/save.png</normaloff>:/images/icons/save.png</iconset>
     </property>
     <property name="iconSize">
@@ -1127,7 +1133,7 @@ color: #930077;</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/video.png</normaloff>:/images/icons/video.png</iconset>
     </property>
     <property name="iconSize">
@@ -1184,7 +1190,10 @@ color: #930077;</string>
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="toolTip">
-     <string>开发信息</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;作者信息&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;我很神秘&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
@@ -1193,7 +1202,7 @@ color: #930077;</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/author.png</normaloff>:/images/icons/author.png</iconset>
     </property>
     <property name="iconSize">
@@ -1319,7 +1328,7 @@ color: #930077;</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/model.png</normaloff>:/images/icons/model.png</iconset>
     </property>
     <property name="iconSize">
@@ -1363,7 +1372,7 @@ color: #930077;</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset resource="RecSystem.qrc">
+     <iconset>
       <normaloff>:/images/icons/folder.png</normaloff>:/images/icons/folder.png</iconset>
     </property>
     <property name="iconSize">
@@ -1670,8 +1679,6 @@ color: #930077;</string>
    </property>
   </action>
  </widget>
- <resources>
-  <include location="RecSystem.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

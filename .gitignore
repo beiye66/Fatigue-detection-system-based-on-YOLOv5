@@ -1,7 +1,24 @@
 *.pt
 *.pth
+*.cache
 __pycache__/
 .idea/
+.vscode/
+.claude/
+
+# 虚拟环境
+drowsiness_env/
+venv/
+env/
+
+# 训练结果与日志
+runs/
+DrowsinessDetection/Drowsiness/logs/
+
+# 数据（仓库只保留代码，不推数据集）
+DrowsinessDetection/Drowsiness/images/
+DrowsinessDetection/Drowsiness/labels/
+DrowsinessDetection/collected_data/
+collected_data/
 data/
 weights/
-runs/
