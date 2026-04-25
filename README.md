@@ -221,14 +221,14 @@ m.export(format='ncnn', imgsz=320, simplify=True)
 
 ### 阶段二：跨设备文件传输
 
-通过局域网 SCP 将模型推送到树莓派：
+通过局域网 SCP 将模型和项目文件推送到树莓派（在 PC 端新开一个终端，不是 SSH 窗口）：
 
 ```bash
-# 在 PC 端新开一个终端执行（不是 SSH 窗口）
-scp -r "DrowsinessDetection/weights/drowsiness-best_ncnn_model" pi@192.168.x.x:/home/pi/Fatigue/weights/
+# 传输整个项目目录
+scp -r "DrowsinessDetection" pi@192.168.x.x:/home/pi/Fatigue/
 
-# 或直接在树莓派上 git clone 项目代码
-git clone https://github.com/beiye66/Fatigue-detection-system-based-on-YOLOv11.git
+# 单独传输 NCNN 模型文件夹
+scp -r "DrowsinessDetection/weights/drowsiness-best_ncnn_model" pi@192.168.x.x:/home/pi/Fatigue/weights/
 ```
 
 ### 阶段三：树莓派端环境搭建
